@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+$grid-gutter-width: 20px !default;
+
+$color-primary-100: #000000 !default;
+$color-primary-200: #f8f8f8 !default;
+$color-primary-300: #df4e3c !default;
+$color-secondary-100: #aeaeae !default;
+$color-secondary-200: #8d8d8d !default;
+$color-secondary-300: #bdbdbd !default;
+$color-secondary-400: #c4c4c4 !default;
+$color-secondary-500: #ffffff !default;
+$color-secondary-600: #959595 !default;
+$color-secondary-700: #507a36 !default;
+$color-secondary-800: #e5e5e5 !default;
+
+$theme-colors: (
+  "color-primary-100": $color-primary-100,
+  "color-primary-200": $color-primary-200,
+  "color-primary-300": $color-primary-300,
+  "color-secondary-100": $color-secondary-100,
+  "color-secondary-200": $color-secondary-200,
+  "color-secondary-300": $color-secondary-300,
+  "color-secondary-400": $color-secondary-400,
+  "color-secondary-500": $color-secondary-500,
+  "color-secondary-600": $color-secondary-600,
+  "color-secondary-700": $color-secondary-700,
+  "color-secondary-800": $color-secondary-800,
+) !default;
+
+// $theme-colors: (
+//   "primary":    $primary,
+//   "secondary":  $secondary,
+//   "success":    $success,
+//   "info":       $info,
+//   "warning":    $warning,
+//   "danger":     $danger,
+//   "light":      $light,
+//   "dark":       $dark
+// ), $theme-colors);
+
+$font-family-noto-sans: "Noto Sans", sans-serif;
+$font-family-poppins: "Poppins", sans-serif;
+$font-family-base: $font-family-noto-sans !default;
+
+$h1-font-size: 50px !default;
+$h2-font-size: 50px !default;
+$h3-font-size: 30px !default;
+$h4-font-size: 25px !default;
+$h5-font-size: 20px !default;
+$h6-font-size: 17px !default;
+
+//font family
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-noto-sans;
+}
+
+h2 {
+  font-family: $font-family-poppins;
+}
+
+//font weight
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h3,
+h4 {
+  font-weight: 600;
+}
+
+h5 {
+  font-weight: 500;
+}
+
+h6 {
+  font-weight: 400;
+}
+
+p {
+  line-height: 1.2;
+}
+
+.button-1 {
+  font-family: $font-family-noto-sans;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: transparent;
+  color: $color-primary-200;
+  border: 2px solid $color-primary-200;
+}
+
+.button-2 {
+  font-family: $font-family-noto-sans;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.link {
+  color: $color-primary-300;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.span-1 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.span-2 {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+$border-radius: 15px;
+
+@import "~bootstrap/scss/bootstrap.scss";
