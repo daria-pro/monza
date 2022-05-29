@@ -1,0 +1,73 @@
+@import "../../main.scss";
+
+.accordion {
+  &-title {
+    font-size: 15px;
+  }
+
+  &-icon {
+    margin-left: auto;
+  }
+}
+
+.accordion-item {
+  overflow: hidden;
+  transition: max-height 0.3s cubic-bezier(2, 0, 2, 0);
+  height: auto;
+  max-height: 9999px;
+}
+
+.accordion-item.collapsed {
+  max-height: 0;
+  transition: max-height 0.35s cubic-bezier(0, 1, 0, 1);
+}
+
+.accordion-header {
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 24px;
+  border-bottom: solid 1px #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &::after {
+    content: "";
+    width: 0;
+    height: 0;
+  }
+
+  &:hover {
+    color: $color-primary-300;
+  }
+
+  &.open {
+    border-bottom: solid 1px transparent;
+    background-color: $color-secondary-500;
+    padding: 24px 40px 12px;
+    transition: 0.3s ease-in;
+  }
+
+  &.open {
+    &::after {
+      content: "";
+      border-bottom: solid 1px transparent;
+      font-weight: 700 !important;
+    }
+  }
+}
+
+.open {
+  font-weight: 700 !important;
+  color: $color-primary-300;
+}
+
+.accordion-content {
+  transition: 0.35s ease;
+  padding: 12px 40px 24px;
+  font-size: 13px;
+  font-weight: 400;
+  background-color: $color-secondary-500;
+  box-shadow: 0px 0px 18px rgba(68, 68, 68, 0.09);
+}

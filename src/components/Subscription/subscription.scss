@@ -1,0 +1,16 @@
+@import "../../main.scss";
+
+.sign-up-input {
+  background-color: transparent !important;
+  height: 54px;
+  color: $color-primary-200 !important;
+
+  &::placeholder {
+    color: $color-primary-200 !important;
+  }
+}
+
+.sign-up-btn {
+  height: 54px;
+  border: none;
+}

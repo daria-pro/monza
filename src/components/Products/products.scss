@@ -1,0 +1,17 @@
+@import "../../main.scss";
+
+.filters {
+  padding: 70px 0 25px;
+}
+
+.form-check-label {
+  color: $color-secondary-200;
+}
+
+.form-check-input:checked + .form-check-label {
+  color: $color-primary-300;
+}
+
+.sort-label {
+  font-size: 12px;
+}
