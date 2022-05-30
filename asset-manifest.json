@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/monza/static/css/main.991fd654.css",
+    "main.js": "/monza/static/js/main.114c611e.js",
+    "static/js/787.9e7d7ff5.chunk.js": "/monza/static/js/787.9e7d7ff5.chunk.js",
+    "static/media/hero.jpg": "/monza/static/media/hero.6834d9914cdb727d11fd.jpg",
+    "static/media/product-7.jpg": "/monza/static/media/product-7.a58b29f11994ed25ae4f.jpg",
+    "static/media/product-2.jpg": "/monza/static/media/product-2.9554603b689c6e880331.jpg",
+    "static/media/product-8.jpg": "/monza/static/media/product-8.bfcb49d742f7a3599f3d.jpg",
+    "static/media/product-4.jpg": "/monza/static/media/product-4.d0eb438eb88456fc317d.jpg",
+    "static/media/product-1.jpg": "/monza/static/media/product-1.c1032ac0d8c7e0aa1ca9.jpg",
+    "static/media/product-6.jpg": "/monza/static/media/product-6.cc0dfc5bf7257d18d0f7.jpg",
+    "static/media/product-5.jpg": "/monza/static/media/product-5.87cc677dd295243da088.jpg",
+    "static/media/product-3.jpg": "/monza/static/media/product-3.d5aa093b1640bc13f4c7.jpg",
+    "static/media/logo.svg": "/monza/static/media/logo.805f4318f3f6965d23655e0ce243448f.svg",
+    "static/media/instagram.svg": "/monza/static/media/instagram.cd124d1911ab555388c2e9aa87d81fa5.svg",
+    "index.html": "/monza/index.html",
+    "static/media/plus.svg": "/monza/static/media/plus.91f8aa039770c2163a19695ed5a17730.svg",
+    "static/media/arrow-down.svg": "/monza/static/media/arrow-down.e66830c47c95050d861796f0f202d10c.svg",
+    "static/media/facebook.svg": "/monza/static/media/facebook.344b8dd53ff0258df01ce69741536a0d.svg",
+    "static/media/asc.svg": "/monza/static/media/asc.f8d6e17ab99609604c949ffdd3a42ebb.svg",
+    "static/media/desc.svg": "/monza/static/media/desc.422037f5701b6a1714bbc75272fedcff.svg",
+    "static/media/minus.svg": "/monza/static/media/minus.b27d3eacc83b31c300147f3fab6ee96a.svg",
+    "main.991fd654.css.map": "/monza/static/css/main.991fd654.css.map",
+    "main.114c611e.js.map": "/monza/static/js/main.114c611e.js.map",
+    "787.9e7d7ff5.chunk.js.map": "/monza/static/js/787.9e7d7ff5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.991fd654.css",
+    "static/js/main.114c611e.js"
+  ]
+}
