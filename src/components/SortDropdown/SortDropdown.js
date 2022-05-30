@@ -4,7 +4,6 @@ import "./sortDropdown.scss";
 
 const SortDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [showHeader, setShowHeader] = useState(true);
   const [selectedOption, setSelectedOption] = useState("Price (ascending)");
   const options = [
     "Price (ascending)",
@@ -20,12 +19,8 @@ const SortDropdown = () => {
   };
 
   const onSelect = (value) => {
-    // const key = filterKey.toLowerCase();
-    // onFilter(key, value);
-
     setSelectedOption(value);
     setIsOpen(false);
-    setShowHeader(true);
   };
 
   return (

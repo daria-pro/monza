@@ -8,7 +8,7 @@ const Header = () => {
       <div className="header__content">
         <div className="container h-100 d-flex flex-column justify-content-between ">
           <nav className="navbar">
-            <div className="nopadding">
+            <div className="py-3">
               <a href="/" className="navbar-brand">
                 <img
                   className="nav__logo-image"
@@ -17,7 +17,7 @@ const Header = () => {
                 />
               </a>
             </div>
-            <ul className="navbar-nav flex-row">
+            <ul className="navbar-nav flex-row flex-wrap">
               <li className="nav-item">
                 <a className="nav-link link-color-primary-200" href="#">
                   Inventory

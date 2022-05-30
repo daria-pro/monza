@@ -100,6 +100,18 @@ p {
   font-weight: 400;
   font-size: 15px;
 }
+
+.button-red {
+  color: $color-secondary-500 !important;
+  height: 45px;
+
+  &:hover {
+    background-color: transparent !important;
+    color: $color-primary-300 !important;
+    border: 2px solid $color-primary-300 !important;
+  }
+}
+
 .link {
   color: $color-primary-300;
   font-weight: 500;
@@ -119,6 +131,13 @@ p {
 .form-control {
   &:focus {
     border-color: $color-secondary-200 !important;
+    -webkit-box-shadow: none;
+    box-shadow: none !important;
+  }
+}
+
+.btn {
+  &:focus {
     -webkit-box-shadow: none;
     box-shadow: none !important;
   }

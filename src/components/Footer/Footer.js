@@ -5,8 +5,8 @@ import "./footer.scss";
 const Footer = () => {
   return (
     <footer className="footer section py-3 bg-color-primary-100">
-      <div className="container">
-        <div className="d-flex flex-wrap justify-content-between align-items-center">
+      <div className="container h-100">
+        <div className="d-flex flex-wrap justify-content-between align-items-center h-100">
           <div className="nopadding">
             <a href="/" className="navbar-brand">
               <img
@@ -16,7 +16,7 @@ const Footer = () => {
               />
             </a>
           </div>
-          <ul className="navbar-nav flex-row">
+          <ul className="navbar-nav flex-row flex-wrap">
             <li className="nav-item">
               <a className="nav-link link-color-primary-200" href="#">
                 Inventory

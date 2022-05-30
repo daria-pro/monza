@@ -57,11 +57,11 @@ const Products = () => {
         <FilterDropdown filterKey="Mileage" onFilter={handleFilterChange} />
         <FilterDropdown filterKey="Fuel" onFilter={handleFilterChange} />
         <FilterDropdown filterKey="Price" onFilter={handleFilterChange} />
-        <button className="col-xxl-3 col-sm-2 btn btn-color-primary-300 btn-red">
-          40 cars
+        <button className="col-xxl-3 col-sm-2 btn btn-color-primary-300 button-red ">
+          {filteredData.length} cars
         </button>
       </div>
-      <div className="d-flex align-items-center justify-content-between">
+      <div className="d-flex align-items-center justify-content-between mb-4">
         <div className="form-check">
           <input
             className="form-check-input"
@@ -70,7 +70,7 @@ const Products = () => {
             id="available"
             onChange={showAvailable}
           />
-          <label className="form-check-label mb-4 " for="available">
+          <label className="form-check-label" htmlFor="available">
             Instantly available vehicles
           </label>
         </div>

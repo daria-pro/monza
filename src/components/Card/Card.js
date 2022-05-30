@@ -1,5 +1,4 @@
 import React from "react";
-import images from "../../constants/images";
 import "./card.scss";
 
 const Card = ({ product }) => {
@@ -37,7 +36,7 @@ const Card = ({ product }) => {
             <p className="card-info">{transmission}</p>
             <p className="card-info">{fuel}</p>
           </div>
-          <h5>{price}</h5>
+          <h5>${price}</h5>
         </div>
       </div>
     </div>

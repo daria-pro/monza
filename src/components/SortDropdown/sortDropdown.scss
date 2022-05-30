@@ -28,6 +28,10 @@
   font-weight: 500;
   border: 1px solid transparent;
   border-radius: $border-radius;
+
+  &:hover {
+    color: $color-primary-300;
+  }
 }
 
 .sort-list {
