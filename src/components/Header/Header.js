@@ -62,7 +62,7 @@ const Header = () => {
             </div>
             <a
               href="#products"
-              className="btn btn-outline-color-primary-200 col-3 button-1"
+              className="btn btn-outline-color-primary-200 col-5 col-md-3 button-1"
             >
               Browse cars
             </a>
