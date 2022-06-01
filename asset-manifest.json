@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/monza/static/css/main.2a7cad24.css",
-    "main.js": "/monza/static/js/main.ac236b54.js",
+    "main.js": "/monza/static/js/main.ba06bbaa.js",
     "static/js/787.9e7d7ff5.chunk.js": "/monza/static/js/787.9e7d7ff5.chunk.js",
     "static/media/hero.jpg": "/monza/static/media/hero.6834d9914cdb727d11fd.jpg",
     "static/media/product-7.jpg": "/monza/static/media/product-7.a58b29f11994ed25ae4f.jpg",
@@ -22,11 +22,11 @@
     "static/media/desc.svg": "/monza/static/media/desc.422037f5701b6a1714bbc75272fedcff.svg",
     "static/media/minus.svg": "/monza/static/media/minus.b27d3eacc83b31c300147f3fab6ee96a.svg",
     "main.2a7cad24.css.map": "/monza/static/css/main.2a7cad24.css.map",
-    "main.ac236b54.js.map": "/monza/static/js/main.ac236b54.js.map",
+    "main.ba06bbaa.js.map": "/monza/static/js/main.ba06bbaa.js.map",
     "787.9e7d7ff5.chunk.js.map": "/monza/static/js/787.9e7d7ff5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a7cad24.css",
-    "static/js/main.ac236b54.js"
+    "static/js/main.ba06bbaa.js"
   ]
 }
