@@ -36,7 +36,7 @@ const Card = ({ product }) => {
             <p className="card-info">{transmission}</p>
             <p className="card-info">{fuel}</p>
           </div>
-          <h5>${price}</h5>
+          <h5>{price}</h5>
         </div>
       </div>
     </div>

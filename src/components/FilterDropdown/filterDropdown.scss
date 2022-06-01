@@ -9,9 +9,10 @@
 }
 
 .drop-down-container {
+  min-width: 110px;
   max-width: 170px;
   position: relative;
-  display: inline-block;
+  display: block;
 }
 
 .drop-down-header {

@@ -7,17 +7,19 @@
 }
 
 .sort-container {
-  width: 150px;
+  min-width: 100px;
+  width: 100%;
+  max-width: 150px;
   position: relative;
   display: inline-block;
   text-align: center;
-  margin: 0 0 0 10px !important;
   height: 16px;
 }
 
 .sort-header {
   position: absolute;
   top: 0;
+  right: 0;
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -34,9 +36,14 @@
   }
 }
 
+.sort-title {
+  text-align: end;
+}
+
 .sort-list {
   position: absolute;
   top: 24px;
+  min-width: 110px;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -58,6 +65,9 @@
 .sort-item {
   list-style: none;
   cursor: pointer;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 
   &:not(:last-child) {
     margin-bottom: 0.6em;

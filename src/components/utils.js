@@ -8,3 +8,8 @@ export const getFilterOptions = (array, key) => {
   }
   return filteredArray.sort((a, b) => a - b);
 };
+
+export const toNumber = (str) => {
+  let filteredNumbers = str.replace(/\D/g, "");
+  return parseInt(filteredNumbers);
+};

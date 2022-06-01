@@ -60,7 +60,10 @@ const Header = () => {
                 benchmark for innovation in the automotive industry.
               </p>
             </div>
-            <a className="btn btn-outline-color-primary-200 col-3 button-1">
+            <a
+              href="#products"
+              className="btn btn-outline-color-primary-200 col-3 button-1"
+            >
               Browse cars
             </a>
           </section>

@@ -2,6 +2,7 @@
 
 .filters {
   padding: 70px 0 25px;
+  flex-wrap: wrap;
 }
 
 .form-check-label {
@@ -14,4 +15,6 @@
 
 .sort-label {
   font-size: 12px;
+  min-width: 195px;
+  max-width: 200px;
 }

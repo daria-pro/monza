@@ -26,7 +26,7 @@ const FilterDropdown = (props) => {
   };
 
   return (
-    <div className="drop-down-container col-2 mb-5 me-1">
+    <div className="drop-down-container col-2 mb-5">
       {showHeader && (
         <div
           className={`
