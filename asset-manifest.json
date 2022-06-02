@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/monza/static/css/main.2a7cad24.css",
-    "main.js": "/monza/static/js/main.ba06bbaa.js",
+    "main.css": "/monza/static/css/main.0c80c35a.css",
+    "main.js": "/monza/static/js/main.7b0a3e94.js",
     "static/js/787.9e7d7ff5.chunk.js": "/monza/static/js/787.9e7d7ff5.chunk.js",
     "static/media/hero.jpg": "/monza/static/media/hero.6834d9914cdb727d11fd.jpg",
     "static/media/product-7.jpg": "/monza/static/media/product-7.a58b29f11994ed25ae4f.jpg",
@@ -21,12 +21,14 @@
     "static/media/asc.svg": "/monza/static/media/asc.f8d6e17ab99609604c949ffdd3a42ebb.svg",
     "static/media/desc.svg": "/monza/static/media/desc.422037f5701b6a1714bbc75272fedcff.svg",
     "static/media/minus.svg": "/monza/static/media/minus.b27d3eacc83b31c300147f3fab6ee96a.svg",
-    "main.2a7cad24.css.map": "/monza/static/css/main.2a7cad24.css.map",
-    "main.ba06bbaa.js.map": "/monza/static/js/main.ba06bbaa.js.map",
+    "static/media/error.svg": "/monza/static/media/error.d8d0fc0c44020aaf3dfd340b64f95622.svg",
+    "static/media/success.svg": "/monza/static/media/success.2acf7c65b41d9559a85a59e053d174a2.svg",
+    "main.0c80c35a.css.map": "/monza/static/css/main.0c80c35a.css.map",
+    "main.7b0a3e94.js.map": "/monza/static/js/main.7b0a3e94.js.map",
     "787.9e7d7ff5.chunk.js.map": "/monza/static/js/787.9e7d7ff5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a7cad24.css",
-    "static/js/main.ba06bbaa.js"
+    "static/css/main.0c80c35a.css",
+    "static/js/main.7b0a3e94.js"
   ]
 }
