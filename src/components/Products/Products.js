@@ -63,7 +63,7 @@ const Products = () => {
           case "Year (descending)":
             return a.year > b.year ? -1 : b.year > a.year ? 1 : 0;
           default:
-            return;
+            return a - b;
         }
       })
     );

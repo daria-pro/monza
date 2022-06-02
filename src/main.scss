@@ -144,6 +144,18 @@ p {
   }
 }
 
+.form-control.is-valid,
+.was-validated .form-control:valid {
+  background-image: url("../src/assets/success.svg") !important;
+  border-color: $color-secondary-700 !important;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  background-image: url("../src/assets/error.svg") !important;
+  border-color: $color-primary-300 !important;
+}
+
 $input-box-shadow: none;
 $input-border-color: $color-secondary-300;
 
